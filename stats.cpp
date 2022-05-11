@@ -1,5 +1,5 @@
 #include "stats.h"
-Stats Statistics::ComputeStatistics(const std::vector<float>&a)
+Statistics::Stats Statistics::ComputeStatistics(const std::vector<float>&a)
  {
     //std::vector<float> var = a;
     //1.5, 8.9, 3.2, 4.5
@@ -13,7 +13,8 @@ Stats Statistics::ComputeStatistics(const std::vector<float>&a)
     //max
     //store the calculated values toa  structure and return the structure
 // computedStats.max
-
+Stats r;
+return r;
 }
 int main()
 {

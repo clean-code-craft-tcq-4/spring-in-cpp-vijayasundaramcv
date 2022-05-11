@@ -1,15 +1,17 @@
 #include <vector>
 
 
-typedef auto Stats;
+//typedef auto Stats;
 namespace Statistics {
 
-typedef struct computedStats
+typedef struct Stats
 {
     float average;
     float min;
     float max;
-}computedStats;
+}Stats;
 
-    Stats ComputeStatistics(const std::vector<float>& );
+   Stats ComputeStatistics(const std::vector<float>& );
+
+    
 }
