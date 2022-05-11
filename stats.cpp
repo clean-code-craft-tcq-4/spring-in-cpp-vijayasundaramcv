@@ -1,6 +1,6 @@
 #include "stats.h"
-int main(){
-Stats Statistics::ComputeStatistics(const std::vector<float>&a) {
+Stats Statistics::ComputeStatistics(const std::vector<float>&a)
+ {
     //std::vector<float> var = a;
     //1.5, 8.9, 3.2, 4.5
     //Implement statistics here
@@ -15,4 +15,9 @@ Stats Statistics::ComputeStatistics(const std::vector<float>&a) {
 // computedStats.max
 
 }
+int main()
+{
+ 
+//Statistics::ComputeStatistics();
+return 0;
 }
