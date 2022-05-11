@@ -1,7 +1,7 @@
 #include "stats.h"
 int main(){
-Stats Statistics::ComputeStatistics(const std::vector<auto>& a) {
-    std::vector<float> var = a;
+Stats Statistics::ComputeStatistics(const std::vector<___>& a) {
+    //std::vector<float> var = a;
     //1.5, 8.9, 3.2, 4.5
     //Implement statistics here
     //average
